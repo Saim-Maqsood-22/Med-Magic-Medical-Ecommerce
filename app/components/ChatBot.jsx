@@ -91,7 +91,7 @@ const ChatBot = () => {
       <div
         style={{
           position: 'fixed',
-          bottom: '90px',
+          bottom: '0px',
           left: '10px',
           zIndex: 1000,
           cursor: 'pointer',

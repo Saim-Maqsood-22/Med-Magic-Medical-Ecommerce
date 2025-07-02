@@ -57,37 +57,37 @@ const SimpleHamburgerNavbar = () => {
           <nav className="hidden md:block">
             <ul className="flex space-x-6">
               <li>
-                <Link href="/" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/store" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/store" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   Store
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/about" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/contact" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/FAQ" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/FAQ" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/appointments" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/appointments" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   Appointments
                 </Link>
               </li>
               <li>
-                <Link href="/Your-BMI" className="hover:text-emerald-400 transition-colors px-2 py-1">
+                <Link href="/Your-BMI" className="focus:text-emerald-400 transition-colors px-2 py-1">
                   Calculate BMI
                 </Link>
               </li>
@@ -101,37 +101,37 @@ const SimpleHamburgerNavbar = () => {
         <nav className="bg-gray-900/95 backdrop-blur-sm border-t border-gray-800 py-3">
           <ul className="flex flex-col items-center space-y-3 px-4">
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Home
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/store" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/store" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Store
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/about" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/about" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 About
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/contact" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/contact" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Contact
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/FAQ" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/FAQ" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 FAQ
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/appointments" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/appointments" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Appointments
               </Link>
             </li>
             <li>
-              <Link href="/Your-BMI" className="block py-2 hover:text-emerald-400 transition-colors" onClick={toggleMenu}>
+              <Link href="/Your-BMI" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Calculate BMI
               </Link>
             </li>

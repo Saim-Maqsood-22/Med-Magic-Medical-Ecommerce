@@ -109,8 +109,8 @@ const VoiceController = () => {
   }, [transcript]);
 
   return (
-    <div className="fixed bottom-4 right-4 mb-7">
-      <div className="bg-[#1a1a1a] dark:bg-gray-800 p-4 rounded-lg shadow-lg mb-[50dvh] animate-pulse">
+    <div className="fixed bottom-4 right-4 ">
+      <div className="bg-[#1a1a1a] dark:bg-gray-800 p-4 rounded-lg shadow-lg mb-[40dvh]">
         <button
           onClick={toggleListening}
           className={`p-3 rounded-full ${isListening ? 'bg-red-500 animate-pulse' : 'bg-blue-500'} text-white`}
