@@ -14,6 +14,7 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import SeasonalHealthAlert from "./components/SeasonalAlerts";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
             </SignedIn>
           </header>
         <Navbar />
+        <SeasonalHealthAlert/>
         {children}
         <Whatsapp />
         <ScrollToTop />
