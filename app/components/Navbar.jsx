@@ -82,8 +82,8 @@ const SimpleHamburgerNavbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/appointments" className="focus:text-emerald-400 transition-colors px-2 py-1">
-                  Appointments
+                <Link href="/doctors" className="focus:text-emerald-400 transition-colors px-2 py-1">
+                  Select a specialist
                 </Link>
               </li>
               <li>
@@ -126,8 +126,8 @@ const SimpleHamburgerNavbar = () => {
               </Link>
             </li>
             <li className="w-full text-center border-b border-gray-800 pb-2">
-              <Link href="/appointments" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
-                Appointments
+              <Link href="/doctors" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
+                Select a specialist
               </Link>
             </li>
             <li>

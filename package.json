@@ -11,6 +11,8 @@
   "dependencies": {
     "@clerk/nextjs": "^6.18.5",
     "@formspree/react": "^3.0.0",
+    "@google-apps/meet": "^0.6.0",
+    "@google-cloud/local-auth": "^3.0.1",
     "@radix-ui/react-accordion": "^1.2.3",
     "axios": "^1.10.0",
     "class-variance-authority": "^0.7.1",
