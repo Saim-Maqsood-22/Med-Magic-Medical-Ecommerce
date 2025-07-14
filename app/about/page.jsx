@@ -17,7 +17,7 @@ const page = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800">Our Vision</h2>
+              <h2 className="text-4xl font-bold text-white">Our Vision</h2>
               <p className="mt-4 text-gray-600">
                 At Med Magic, we envision a world where quality healthcare
                 products are accessible to everyone. Our mission is to bridge the
@@ -26,7 +26,7 @@ const page = () => {
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start">
                   <span
-                    className="w-6 h-6 bg-blue-600 text-white flex items-center justify-center rounded-full mr-3"
+                    className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
                   <p className="text-gray-600">
@@ -35,7 +35,7 @@ const page = () => {
                 </li>
                 <li className="flex items-start">
                   <span
-                    className="w-6 h-6 bg-blue-600 text-white flex items-center justify-center rounded-full mr-3"
+                    className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
                   <p className="text-gray-600">
@@ -44,7 +44,7 @@ const page = () => {
                 </li>
                 <li className="flex items-start">
                   <span
-                    className="w-6 h-6 bg-blue-600 text-white flex items-center justify-center rounded-full mr-3"
+                    className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
                   <p className="text-gray-600">
@@ -84,7 +84,7 @@ const page = () => {
       </section>
       <section className="py-16">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-gray-800 text-center">
+          <h2 className="text-4xl font-bold text-white text-center">
             Meet Our Executives
           </h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
