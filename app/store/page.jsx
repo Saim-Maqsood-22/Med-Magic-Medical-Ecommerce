@@ -97,7 +97,7 @@ const products = [
     id: 12,
     name: "Electrolyte Sachets",
     price: 29.00,
-    image: "/electrolyte.jpg",
+    image: "/electrolytes.jpg",
     link: "https://buy.stripe.com/test_9AQ2ah8Fe6t84pyaEP",
     category: "medications"
   },
