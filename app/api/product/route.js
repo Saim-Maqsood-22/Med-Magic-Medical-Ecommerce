@@ -1,0 +1,17 @@
+// app/api/products/route.js
+import { NextResponse } from 'next/server';
+import clientPromise from '@/utils/db'; // Adjust path if needed
+
+export async function GET() {
+  try {
+    const client = await clientPromise;
+    const db = client.db("med-magic-db"); // Replace with your database name
+
+    const products = await db.collection("products").find({}).toArray(); // Replace "products" with your collection name
+
+    return NextResponse.json(products);
+  } catch (e) {
+    console.error(e);
+    return NextResponse.json({ message: 'Error fetching products' }, { status: 500 });
+  }
+}
