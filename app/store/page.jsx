@@ -93,14 +93,14 @@ const products = [
     link: "https://buy.stripe.com/test_3csg178FebNsg8g28i",
     category: "devices"
   },
-  // {
-  //   id: 12,
-  //   name: "Electrolyte Sachets",
-  //   price: 29.00,
-  //   image: "/electrolyte.jpg",
-  //   link: "https://buy.stripe.com/test_9AQ2ah8Fe6t84pyaEP",
-  //   category: "medications"
-  // },
+  {
+    id: 12,
+    name: "Electrolyte Sachets",
+    price: 29.00,
+    image: "/electrolyte.jpg",
+    link: "https://buy.stripe.com/test_9AQ2ah8Fe6t84pyaEP",
+    category: "medications"
+  },
   {
     id: 13,
     name: "Throat Lozenges",
