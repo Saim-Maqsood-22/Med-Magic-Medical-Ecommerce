@@ -1,6 +1,5 @@
-// app/api/products/route.js
 import { NextResponse } from 'next/server';
-import clientPromise from '@/utils/db'; // Adjust path if needed
+import clientPromise from '@/utils/db';
 
 export async function GET() {
   try {
