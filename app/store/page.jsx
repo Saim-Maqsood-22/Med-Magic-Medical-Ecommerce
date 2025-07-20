@@ -1,4 +1,3 @@
-// app/store/page.js
 "use client"; // This makes the component a Client Component
 
 import Head from 'next/head';
@@ -107,7 +106,7 @@ const StorePage = () => {
                 </div>
                 <div className="p-4">
                   <h4 className="font-bold text-lg mb-2">{product.name}</h4>
-                  <p className="text-blue-400 font-semibold">${product.price?.toFixed(2) || 'N/A'}</p>
+                  <p className="text-blue-400 font-semibold">PKR {product.price?.toFixed(2) || 'N/A'}</p>
                   <Link href={product.link}>
                     <button className="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                       Buy Now
