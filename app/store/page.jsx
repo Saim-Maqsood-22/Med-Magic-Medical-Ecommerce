@@ -50,7 +50,7 @@ const StorePage = () => {
   if (loading) {
     return (
       <section className="bg-[#1a1a1a] text-white min-h-screen flex items-center justify-center">
-        <p className="text-xl">Loading products...</p>
+        <p className="text-xl">Please wait...</p>
       </section>
     );
   }
