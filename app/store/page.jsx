@@ -1,4 +1,4 @@
-"use client"; // This makes the component a Client Component
+"use client";
 
 import Head from 'next/head';
 import Image from 'next/image';
