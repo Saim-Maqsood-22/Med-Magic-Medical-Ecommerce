@@ -177,12 +177,6 @@ const BMICalculator = () => {
                   bmi >= 30 ? 'bg-red-500' : 'bg-red-200'
                 }`}></div>
               </div>
-              <div 
-                className="absolute top-0 h-full w-1 bg-black"
-                style={{
-                  left: `${Math.min(Math.max((bmi / 40) * 100, 2.5), 97.5)}%`
-                }}
-              ></div>
             </div>
             <div className="flex justify-between text-xs text-gray-500">
               <span>&lt; 18.5</span>

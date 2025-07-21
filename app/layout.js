@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 import ChatBot from "./components/ChatBot";
 import Whatsapp from "./components/Whatsapp";
 import VoiceControl from "./components/Voice";
@@ -15,6 +14,7 @@ import {
   UserButton,
 } from '@clerk/nextjs'
 import SeasonalHealthAlert from "./components/SeasonalAlerts";
+import AiEducator from "./components/AiEducator";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,8 +51,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <SeasonalHealthAlert/>
         {children}
+        <AiEducator />
         <Whatsapp />
-        <ScrollToTop />
         <VoiceControl />
         <ChatBot />
         <Footer />

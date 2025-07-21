@@ -91,11 +91,6 @@ const SimpleHamburgerNavbar = () => {
                   Calculate BMI
                 </Link>
               </li>
-              <li>
-                <Link href="/ai-educator" className="focus:text-emerald-400 transition-colors px-2 py-1">
-                  AI Educator
-                </Link>
-              </li>
             </ul>
           </nav>
         )}
@@ -138,11 +133,6 @@ const SimpleHamburgerNavbar = () => {
             <li>
               <Link href="/Your-BMI" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
                 Calculate BMI
-              </Link>
-            </li>
-            <li>
-              <Link href="/ai-educator" className="block py-2 focus:text-emerald-400 transition-colors" onClick={toggleMenu}>
-                AI Educator
               </Link>
             </li>
           </ul>
