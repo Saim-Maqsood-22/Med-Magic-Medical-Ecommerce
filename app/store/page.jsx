@@ -12,7 +12,8 @@ const categories = [
   { id: 'devices', name: 'Medical Devices' },
   { id: 'first-aid', name: 'First Aid' },
   { id: 'hygiene', name: 'Hygiene Products' },
-  { id: 'baby-care', name: 'Baby Care' }
+  { id: 'baby-care', name: 'Baby Care' },
+  {id: 'medical-support', name: 'Medical Support'},
 ];
 
 const StorePage = () => {
@@ -26,7 +27,7 @@ const StorePage = () => {
 
     const fetchProducts = async () => {
       try {
-        const res = await fetch('/api/product'); // Call your new API route
+        const res = await fetch('/api/product');
         if (!res.ok) {
           throw new Error(`Error fetching products: ${res.statusText}`);
         }
