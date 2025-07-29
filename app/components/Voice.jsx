@@ -86,6 +86,9 @@ const VoiceController = () => {
     addCommand('appointment', () => {
         window.location.href = '/appointments';
     });
+    addCommand('doctors', () => {
+        window.location.href = '/doctors';
+    });
   }, [addCommand]);
 
   // Send transcript to Gemini and log response
