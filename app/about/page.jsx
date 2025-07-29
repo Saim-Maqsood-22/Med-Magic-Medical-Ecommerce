@@ -61,7 +61,7 @@ const page = () => {
       </section>
       <section className="bg-[#1a1a1a] py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-gray-800">Our Journey</h2>
+          <h2 className="text-4xl font-bold text-white">Our Journey</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="text-blue-600 text-5xl font-bold">2024</div>
