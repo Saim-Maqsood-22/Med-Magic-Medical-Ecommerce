@@ -12,7 +12,7 @@ const AiEducator = () => {
 
   return (
     // Outer container for centering and overall positioning
-    <div className="fixed bottom-20 right-4 z-50"> {/* Fixed position for floating bubble */}
+    <div className="border-2 fixed right-4 bottom-24 z-50"> {/* Fixed position for floating bubble */}
       {/* The chat bubble button/icon that toggles the chatbot */}
       <button
         onClick={toggleChatbot}
