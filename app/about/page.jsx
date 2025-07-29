@@ -18,7 +18,7 @@ const page = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-4xl font-bold text-white">Our Vision</h2>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-300">
                 At Med Magic, we envision a world where quality healthcare
                 products are accessible to everyone. Our mission is to bridge the
                 gap between medical innovation and customer satisfaction.
@@ -29,7 +29,7 @@ const page = () => {
                     className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
-                  <p className="text-gray-600">
+                  <p className="text-gray-300">
                     Ensuring the availability of high-quality medical products.
                   </p>
                 </li>
@@ -38,7 +38,7 @@ const page = () => {
                     className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
-                  <p className="text-gray-600">
+                  <p className="text-gray-300">
                     Promoting innovation in healthcare delivery.
                   </p>
                 </li>
@@ -47,7 +47,7 @@ const page = () => {
                     className="w-6 h-6 bg-black text-white flex items-center justify-center rounded-full mr-3"
                   >✔</span
                   >
-                  <p className="text-gray-600">
+                  <p className="text-gray-300">
                     Fostering trust and transparency with our customers.
                   </p>
                 </li>

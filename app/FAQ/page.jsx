@@ -19,7 +19,8 @@ const page = () => {
       <Head>
         <title>{generateMetadata().title}</title>
       </Head>
-      <Accordion type="single" collapsible className="w-full">
+      {/* <center> */}
+      <Accordion type="single" collapsible className="w-[92%] ml-8">
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-white">Is it accessible?</AccordionTrigger>
           <AccordionContent className="text-white">
@@ -39,6 +40,7 @@ const page = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
+      {/* </center> */}
     </>
   )
 }
