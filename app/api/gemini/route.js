@@ -25,7 +25,7 @@ const products = [
   {
     id: 'CS001',
     name: 'Cough Syrup',
-    price: 20.00,
+    price: Rs : 249.00,
     category: 'Medication',
     description: 'Relieves cough and sore throat. Suitable for adults and children over 6.',
     inStock: true,
@@ -35,7 +35,7 @@ const products = [
   {
     id: 'CR002',
     name: 'Cotton Roll',
-    price: 25.00,
+    price: Rs : 300.00,
     category: 'First Aid Supplies',
     description: 'Absorbent cotton for wound dressing and general medical use.',
     inStock: true,
@@ -45,7 +45,7 @@ const products = [
   {
     id: 'GP003',
     name: 'Gauze Pads',
-    price: 30.00,
+    price: Rs : 460.00,
     category: 'First Aid Supplies',
     description: 'Sterile gauze pads for wound care and protection. Pack of 10.',
     inStock: true,
@@ -55,7 +55,7 @@ const products = [
   {
     id: 'DT004',
     name: 'Digital Thermometer',
-    price: 15.00,
+    price: Rs : 270.00,
     category: 'Diagnostic Devices',
     description: 'Fast and accurate digital thermometer for oral, rectal, or axillary use.',
     inStock: true,
@@ -65,7 +65,7 @@ const products = [
   {
     id: 'BA005',
     name: 'Band-Aids',
-    price: 18.00,
+    price: Rs : 310.00,
     category: 'First Aid Supplies',
     description: 'Assorted adhesive bandages for minor cuts and scrapes. 50-count box.',
     inStock: true,
@@ -75,7 +75,7 @@ const products = [
   {
     id: 'AC006',
     name: 'Antiseptic Cream',
-    price: 22.00,
+    price: Rs : 1075.00,
     category: 'Topical Treatments',
     description: 'Topical cream to prevent infection in minor cuts, scrapes, and burns.',
     inStock: true,
@@ -85,7 +85,7 @@ const products = [
   {
     id: 'HS007',
     name: 'Hand Sanitizer',
-    price: 19.00,
+    price: Rs : 255.00,
     category: 'Hygiene',
     description: 'Alcohol-based hand sanitizer for killing germs on the go. 500ml bottle.',
     inStock: true,
@@ -95,7 +95,7 @@ const products = [
   {
     id: 'FM008',
     name: 'Face Masks',
-    price: 26.00,
+    price: Rs: 200.00,
     category: 'Personal Protective Equipment (PPE)',
     description: 'Disposable protective face masks. Box of 50.',
     inStock: true,
@@ -105,7 +105,7 @@ const products = [
   {
     id: 'DG009',
     name: 'Disposable Gloves',
-    price: 21.00,
+    price: Rs : 200.00,
     category: 'Personal Protective Equipment (PPE)',
     description: 'Latex-free disposable gloves for general purpose use. Box of 100.',
     inStock: true,
@@ -115,7 +115,7 @@ const products = [
   {
     id: 'IF010',
     name: 'Infant Formula',
-    price: 26.00,
+    price: Rs : 688.00,
     category: 'Nutrition',
     description: 'Nutritionally complete infant formula for babies 0-12 months.',
     inStock: true,
@@ -125,7 +125,7 @@ const products = [
   {
     id: 'NB011',
     name: 'Nebulizer',
-    price: 32.00,
+    price: Rs : 1300.00,
     category: 'Respiratory Care',
     description: 'Portable nebulizer for effective delivery of respiratory medications.',
     inStock: true,
@@ -135,7 +135,7 @@ const products = [
   {
     id: 'ES012',
     name: 'Electrolyte Sachets',
-    price: 29.00,
+    price: Rs : 200.00,
     category: 'Hydration & Supplements',
     description: 'Oral rehydration salts to restore fluid and electrolyte balance.',
     inStock: true,
@@ -145,7 +145,7 @@ const products = [
   {
     id: 'TL013',
     name: 'Throat Lozenges',
-    price: 23.00,
+    price: Rs : 375.00,
     category: 'Medication',
     description: 'Soothes sore throats and coughs. Honey lemon flavor.',
     inStock: true,
@@ -155,7 +155,7 @@ const products = [
   {
     id: 'HW014',
     name: 'Hot Water Bag',
-    price: 24.00,
+    price: Rs : 550.00,
     category: 'Pain Relief',
     description: 'Rubber hot water bag for soothing aches, pains, and cramps.',
     inStock: true,
@@ -165,7 +165,7 @@ const products = [
   {
     id: 'BW015',
     name: 'Baby Wipes',
-    price: 17.00,
+    price: Rs : 200.00,
     category: 'Baby Care',
     description: 'Gentle and hypoallergenic baby wipes for sensitive skin. 80-count pack.',
     inStock: true,
@@ -175,7 +175,7 @@ const products = [
   {
     id: 'PO016',
     name: 'Pulse Oximeter',
-    price: 27.00,
+    price: Rs : 450.00,
     category: 'Diagnostic Devices',
     description: 'Fingertip pulse oximeter for quick and accurate blood oxygen and pulse rate readings.',
     inStock: true,
@@ -185,7 +185,7 @@ const products = [
   {
     id: 'BP017',
     name: 'Blood Pressure Monitor',
-    price: 34.00,
+    price: Rs : 3421.00,
     category: 'Diagnostic Devices',
     description: 'Automatic arm blood pressure monitor with large LCD display.',
     inStock: true,
@@ -195,7 +195,7 @@ const products = [
   {
     id: 'BG018',
     name: 'Blood Glucose Meter',
-    price: 31.00,
+    price: Rs : 1275.00,
     category: 'Diagnostic Devices',
     description: 'Easy-to-use blood glucose meter for diabetes management. Includes test strips.',
     inStock: true,
@@ -205,7 +205,7 @@ const products = [
   {
     id: 'IS019',
     name: 'Iron Syrup',
-    price: 20.00,
+    price: Rs : 300.00,
     category: 'Supplements',
     description: 'Liquid iron supplement for treating iron deficiency. Pleasant taste.',
     inStock: true,
@@ -215,11 +215,21 @@ const products = [
   {
     id: 'PC020',
     name: 'Probiotic Capsules',
-    price: 30.00,
+    price: Rs : 1000.00,
     category: 'Supplements',
     description: 'Supports digestive health and immune system. 30 capsules.',
     inStock: true,
     indications: ['Digestive health', 'Immune support', 'Antibiotic recovery'],
+    image: '/probiotic.jpg'
+  },
+{
+    id: 'PC020',
+    name: 'Wheel Chair',
+    price: Rs : 15000.00,
+    category: 'Medical Support',
+    description: 'Support for elderly people .',
+    inStock: true,
+    indications: ['Broken Leg', 'Broken Hip', 'Recovery'],
     image: '/probiotic.jpg'
   }
 ];
