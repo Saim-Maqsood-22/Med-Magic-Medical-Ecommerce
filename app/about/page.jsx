@@ -106,7 +106,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="bg-black text-white py-16">
+      <section className="bg-[#1a1a1a] text-white py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold">What Our Clients Say</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
