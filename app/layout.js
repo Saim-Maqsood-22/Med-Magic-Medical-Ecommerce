@@ -15,7 +15,7 @@ import {
 } from '@clerk/nextjs'
 import SeasonalHealthAlert from "./components/SeasonalAlerts";
 import AiEducator from "./components/AiEducator";
-import SkinCare from "./components/SkinCare";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -54,7 +54,6 @@ export default function RootLayout({ children }) {
         {children}
         <ChatBot />
         <AiEducator />
-        <SkinCare />
         <Whatsapp />
         <VoiceControl />
         <Footer />
