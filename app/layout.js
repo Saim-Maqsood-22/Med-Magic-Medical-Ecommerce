@@ -14,7 +14,6 @@ import {
   UserButton,
 } from '@clerk/nextjs'
 import SeasonalHealthAlert from "./components/SeasonalAlerts";
-import AiEducator from "./components/AiEducator";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,7 +52,6 @@ export default function RootLayout({ children }) {
         <SeasonalHealthAlert/>
         {children}
         <ChatBot />
-        <AiEducator />
         <Whatsapp />
         <VoiceControl />
         <Footer />
